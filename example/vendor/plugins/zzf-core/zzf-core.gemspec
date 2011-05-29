@@ -5,11 +5,9 @@ require "zzf-core/version"
 Gem::Specification.new do |s|
   s.name        = "zzf-core"
   s.version     = Zzf::Core::VERSION
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ['Ben']
+  s.email       = ['ben@zfben.com']
+  s.homepage    = 'https://github.com/benz303/zzf-core'
 
   s.rubyforge_project = "zzf-core"
 
