@@ -1,0 +1,17 @@
+source 'http://rubygems.org'
+
+gem 'rails', '3.1.0.rc1'
+gem 'sqlite3'
+
+# html
+gem 'haml'
+
+# css
+gem 'compass'
+
+# js
+gem 'therubyracer'
+gem 'uglifier'
+gem 'jasmine'
+
+gem 'zfben_rails_rake'

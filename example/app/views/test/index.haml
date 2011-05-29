@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    %link(rel="stylesheet" href="/assets/jasmine.css")
+  %body
+    = javascript_include_tag :test
+    %script
+      :plain
+        jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+        jasmine.getEnv().execute();
