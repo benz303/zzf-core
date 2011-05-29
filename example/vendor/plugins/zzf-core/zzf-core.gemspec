@@ -8,6 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Ben']
   s.email       = ['ben@zfben.com']
   s.homepage    = 'https://github.com/benz303/zzf-core'
+  s.summary     = %q{}
+  s.description = %q{}
 
   s.rubyforge_project = "zzf-core"
 
