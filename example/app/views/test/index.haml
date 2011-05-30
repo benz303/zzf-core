@@ -1,10 +1,12 @@
 !!!
 %html
   %head
-    %link(rel="stylesheet" href="/assets/jasmine.css")
+    %link(rel="stylesheet" href="/assets/qunit.css")
   %body
     = javascript_include_tag :test
-    %script
-      :plain
-        jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
-        jasmine.getEnv().execute();
+    %h1(id="qunit-header")
+    %h2(id="qunit-banner")
+    %div(id="qunit-testrunner-toolbar")
+    %h2(id="qunit-userAgent")
+    %ol(id="qunit-tests")
+    %div(id="qunit-fixture")

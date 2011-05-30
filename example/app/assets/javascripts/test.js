@@ -1,15 +1,3 @@
-//= require jasmine/jasmine
-//= require jasmine/jasmine-html
+//= require qunit
 //= require zzf-core
-
-describe("jQuery", function() {
-  it('$ === jQuery', function() {
-    expect($).toEqual(jQuery);
-  });
-});
-
-describe("underscore", function() {
-  it('$._ === _', function() {
-    expect($._).toEqual(_);
-  });
-});
+//= require zzf-core-spec

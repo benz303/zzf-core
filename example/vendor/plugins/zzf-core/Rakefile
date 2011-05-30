@@ -1,1 +1,14 @@
 require 'bundler/gem_tasks'
+
+desc 'download js files'
+task :download do
+  {
+    'jquery' => [
+      'https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js',
+      'https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.js'
+    ],
+    'underscore' => ['http://documentcloud.github.com/underscore/underscore.js']
+  }.each do |path, url|
+    system 'cd vendor/assets/javascripts/' << path << ';' << url.map{ |u| 'wget ' << u << ' -N;' }.join('')
+  end
+end
